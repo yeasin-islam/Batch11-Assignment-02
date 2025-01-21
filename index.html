@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/web-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -13,12 +14,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media_quary.css">
     <title>Kids-Academy</title>
 </head>
 
 <body>
-    <header>
+    <header class="header-containar">
+        <!-- Navbar Section -->
+        <nav class="navbar quicksand-font">
+            <div class="navbar-logo-contain">
+                <img class="navbar-logo" src="./assets/logo.png" alt="">
+                <p class="mobile-display-hidden">SCHOOL</p>
+            </div>
+            <ul class="menu-title mobile-display-hidden">
+                <li class="menu-title1"><a href="">Home</a></li>
+                <li class="menu-title2"><a href="">About</a></li>
+                <li class="menu-title3"><a href="">Facilities</a></li>
+                <li class="menu-title4"><a href="">Admission</a></li>
+            </ul>
+            <button class="navbar-btn mobile-display-hidden"><a class="navbar-btn-text" href="">contact</a></button>
+            <div class="mobil-menubar"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <span class="mobile-hr-line"><hr></span>
 
+        <!-- header section  -->
+        <section class="head-containar quicksand-font">
+            <div class="head-text">
+                <div class="head-title"><span class="primary-text-color-1">Empowering</span>
+                    students from small age <span class="primary-text-color-2">towards vision</span></div>
+                <div class="head-decript">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</div>
+                <button class="head-btn"><a href="">Enroll Now</a></button>
+            </div>
+            <img src="./assets/hero-kids.png" alt="">
+        </section>
     </header>
     <main>
 
