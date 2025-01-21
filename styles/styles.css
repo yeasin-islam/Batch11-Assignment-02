@@ -146,58 +146,103 @@
 }
 
 /* main section */
+/* Standard Curriculum  */
+.sctandard-curriculum-section{
+  background: url('/assets/bg.png');
+}
+.sc-section-title{
+  font-weight: bold;
+  font-size: 46px;
+  color: #000000;
+  text-align: center;
+  margin: 40px 0px 80px 0px;
+}
+.sc-containar{
+  display: grid;
+  grid-template-columns:auto auto auto;
+  text-align: center;
+  align-items: center;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  margin:  80px 100px 80px 100px ;
+  gap: 29px;
+}
+.sc-card-1{
+  border: none;
+  height: 476px;
+  width: 367px;
+  border-radius: 19px;
+  background-color: chartreuse;
+}
+.sc-card-2{
+  border: none;
+  height: 476px;
+  width: 367px;
+  border-radius: 19px;
+  background-color: blueviolet;
+}
+.sc-card-3{
+  border: none;
+  height: 476px;
+  width: 367px;
+  border-radius: 19px;
+  background-color: aqua;
+}
+
+.sc-card-img{
+  width: 136px;
+  height: 136px;
+}
+.sc-card-title{
+  font-weight: bold;
+  font-size: 24px;
+  color: #202020;
+}
+.sc-card-description{
+  font-weight: 500;
+  font-size: 15px;
+  color: #808080;
+
+}
+.sc-card-btn-1{
+  font-weight: bold;
+  font-size: 15.09px;
+  border: none;
+  text-decoration: none;
+  background-color: aqua;
+  color: beige;
+}
+.sc-card-btn-2{
+  font-weight: bold;
+  font-size: 15.09px;
+  border: none;
+  text-decoration: none;
+  background-color: aqua;
+  color: beige;
+}
+.sc-card-btn-3{
+  font-weight: bold;
+  font-size: 15.09px;
+  border: none;
+  text-decoration: none;
+  background-color: aqua;
+  color: beige;
+}
+
+.sc-slide-btn{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+.sc-slide-btn button{
+  height: 60px;
+  width: 60px;
+  border: none;
+  font-size: 24px;
+  color: #FFFFFF;
+  border-radius: 30px;
+  background-color: rgba(254, 163, 1, 1);
+}
 
 /* footer section */
 
-
-
-
-/* media quary */
-@media screen and (max-width: 576px) {
-
-  /* header section */
-  body {
-      margin: 0px;
-  }
-
-  /* navbar section  */
-  .mobile-display-hidden {
-      display: none;
-  }
-
-  .navbar {
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      justify-content: space-between;
-      margin: 12px 16px;
-  }
-
-  .mobil-menubar {
-      display: block;
-  }
-
-  .mobile-hr-line {
-      display: block;
-      margin: 0px;
-  }
-
-  /* header section  */
-  .head-containar {
-      flex-direction: column-reverse;
-      text-align: center;
-      margin: 8px 17px 0px 16px;
-  }
-
-
-
-
-
-
-
-
-
-
-
-}
