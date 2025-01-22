@@ -116,6 +116,7 @@
   border: none;
   border-radius: 10px;
   background-color: rgb(236, 8, 8);
+  padding-top: 5px;
   margin: 0px 141px;
 }
 /* header page section  */
@@ -281,7 +282,7 @@
   margin-top: 0px;
   margin-bottom: 60px;
 }
-.fa-solid{
+.fa-scrlbar{
   color: #FFFFFF;
 }
 .sc-slide-btn button {
@@ -339,20 +340,6 @@
   border-radius: 16px 16px 0px 0px;
   background-image: cover;
 }
-
-.first-2primary-store-card {
-  display: flex;
-  gap: 19px;
-  width: auto;
-  margin-bottom: 19px;
-}
-
-.second-2primary-store-card {
-  display: flex;
-  width: auto;
-  gap: 19px;
-}
-
 
 .story-card-item1 {
   height: 630px;
