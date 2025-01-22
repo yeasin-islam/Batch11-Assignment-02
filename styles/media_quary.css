@@ -61,7 +61,7 @@
     justify-content: center;
     justify-content: space-between;
     margin: 20px 16px 20px 16px;
-    gap: 12;
+    gap: 12px;
   }
 
   .sc-card {
