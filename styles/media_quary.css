@@ -36,7 +36,7 @@
         margin: 8px 17px 0px 16px;
     }
 
-    .head-title {
+    /* .head-title {
         font-weight: bold;
         font-size: 32px;
         color: #111111;
@@ -66,7 +66,77 @@
         padding: 6px 24px;
         background-color: #111111;
         margin: 0px 0px 20px 0px;
+    } */
+
+    /* Standard Curriculum section  */
+    .sc-section-title {
+        font-weight: bold;
+        font-size: 26px;
+        color: #000000;
+        text-align: center;
+        margin: 40px 0px 20px 0px;
+      }
+    .sc-containar {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-between;
+        margin: 20px 16px 20px 16px;
+        gap: 12;
     }
+
+    .sc-card{
+        height: 321.28px;
+        width: auto;
+        padding: 36px 28px;
+    }
+
+    .sc-card-img {
+        margin-bottom: 22px;
+      }
+      
+      .sc-card-title {
+        font-weight: bold;
+        font-size: 16px;
+        color: #202020;
+        margin-top: 0px;
+        margin-bottom: 22px;
+      }
+      
+      .sc-card-description {
+        font-weight: 500;
+        font-size: 10px;
+        color: #808080;
+        margin-top: 0px;
+        margin-bottom: 22px;
+      }
+      
+      .sc-containar div button {
+        border: none;
+        background: none;
+        margin-top: 0px;
+      }
+      .scrl-btn{
+        display: none;
+      }
+      .sc-card-btn-1, .sc-card-btn-1, .sc-card-btn-1{
+        font-weight: bold;
+        font-size: 10px;
+      }
+
+      /* our story section  */
+      .mobile-display-hidden{
+        display: none;
+      }
+
+      .primary-store-card{
+        margin: 20px 16px;
+      }
+
+      /* our stores section  */
+
+
+
 
 
 
