@@ -59,9 +59,6 @@
   text-decoration: none;
 }
 
-/* .menu-title li:nth-child(3n) {
-  color: #c00;
-} */
 .menu-title1 a {
   font-weight: bold;
   font-size: 20px;
@@ -91,7 +88,7 @@
   width: 197px;
   border: none;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: rgb(254, 163, 1);
 }
 
 .navbar-btn a {
@@ -115,9 +112,10 @@
 .marqueebar{
   font-weight: 500;
   font-size: 20px;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 10px;
-  background-color: cadetblue;
+  background-color: rgb(236, 8, 8);
   margin: 0px 141px;
 }
 /* header page section  */
@@ -165,7 +163,6 @@
   background-color: #111111;
   margin: 0px;
 }
-
 /* main section */
 /* Standard Curriculum  */
 .sctandard-curriculum-section {
@@ -182,7 +179,6 @@
 
 .sc-containar {
   display: flex;
-  /* grid-template-columns: auto auto auto; */
   text-align: center;
   justify-content: center;
   justify-content: space-between;
@@ -195,6 +191,7 @@
 }
 .sc-card{
   align-items: center;
+  padding: 40px;
 }
 .sc-card-1 {
   border: none;
@@ -202,7 +199,8 @@
   width: 367px;
   align-content: center;
   border-radius: 19px;
-  background-image: linear-gradient(rgb(222, 245, 255), rgba(255, 255, 255, 0));
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
 .sc-card-2 {
@@ -211,8 +209,8 @@
   width: 367px;
   align-content: center;
   border-radius: 19px;
-  background-color: #FFFFFF;
-  background-image: linear-gradient(rgba(255, 244, 220, 0.521), rgba(255, 255, 255, 0))
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
 .sc-card-3 {
@@ -221,7 +219,8 @@
   width: 367px;
   align-content: center;
   border-radius: 19px;
-  background-image: linear-gradient(rgba(238, 225, 255, 0.452), rgba(233, 5, 5, 0.932));
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 
 .sc-card-img {
@@ -316,9 +315,6 @@
   color: rgb(0, 0, 0);
 }
 
-/* .item1 {
-  grid-area: myArea;
-} */
 .storie-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -357,21 +353,12 @@
   gap: 19px;
 }
 
-/* .story-card-item1,.story-card-item2,.story-card-item3,.story-card-item4,.story-card-item5 {
-  border: none;
-  text-align: start;
-  border-radius: 16px;
-} */
 
 .story-card-item1 {
   height: 630px;
   width: 540px;
 }
 
-/* .story-card-item1 img{
-  height: 337px;
-  width: 540px;
-} */
 .story-card-item2,
 .story-card-item3,
 .story-card-item4,
@@ -379,8 +366,6 @@
   height: 301px;
   width: 290px;
 }
-
-
 
 .os-date {
   font-weight: 500px;
@@ -453,6 +438,9 @@
   border-radius: 12px;
   padding: 10px;
   background-color: Black;
+}
+.storie-view-btn:hover{
+  background-color: brown;
 }
 
 /* footer section */
